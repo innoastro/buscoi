@@ -1276,7 +1276,7 @@ h3 {
 /* line 8, ../../Arafath/CL/CL October/213. Business/HTML/scss/_slider.scss */
 .slider_area .single_slider {
   height: 900px;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
 }
