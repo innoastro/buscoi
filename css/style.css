@@ -223,7 +223,7 @@ h3 {
   width: 100%;
   height: 100%;
   z-index: -1;
-  opacity: .5;
+  opacity: .3;
 }
 
 /* line 159, ../../Arafath/CL/CL October/213. Business/HTML/scss/theme-default.scss */
@@ -750,7 +750,7 @@ h3 {
   margin-right: 6px;
   margin-top: 3px;
   position: relative;
-  padding-bottom: 3px;
+  padding-bottom: 0px;
   top: -11px;
   right: -5px;
 }
@@ -802,6 +802,15 @@ h3 {
   top: -33px;
 }
 
+
+/* *logo code */
+
+.logo img{
+  
+  height: 90px;
+}
+
+
 /* line 1, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
 .header-area {
   left: 0;
@@ -828,7 +837,7 @@ h3 {
 
 /* line 16, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
 .header-area .main-header-area {
-  padding: 18px 0;
+  padding: 0px 0;
   background: #fff;
   background: transparent;
 }
@@ -869,20 +878,29 @@ h3 {
   /* line 40, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img {
     text-align: left;
+   
   }
 }
 
 @media (max-width: 767px) {
   /* line 54, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
-    width: 70px;
+    width: 30px;
+    
+    
   }
+  .logo img{
+    padding-left: 0px;
+    height: 80px;
+   
+  }
+  
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
   /* line 54, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
   .header-area .main-header-area .logo-img img {
-    width: 70px;
+    width: 30px;
   }
 }
 
@@ -1140,7 +1158,7 @@ h3 {
   box-shadow: 0px 3px 16px 0px rgba(0, 0, 0, 0.1);
   background: rgba(255, 255, 255, 0.96);
   background: #2C2C2C;
-  padding-bottom: 0;
+  padding-bottom: 0px;
 }
 
 @media (max-width: 767px) {
