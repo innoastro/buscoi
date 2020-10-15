@@ -3443,7 +3443,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/213. Business/HTML/scss/_service.scss */
 .service_bg_1 {
-  background-image: url(../images/astro-1.jpg);
+  background-image: url(../images/astro-3.jpg);
 }
 
 /* line 3, ../../Arafath/CL/CL October/213. Business/HTML/scss/_service.scss */
@@ -3453,7 +3453,19 @@ h3 {
 
 /* line 5, ../../Arafath/CL/CL October/213. Business/HTML/scss/_service.scss */
 .service_bg_3 {
-  background-image: url(../images/astro-3.jpg);
+  background-image: url(../images/astro-1.jpg);
+}
+
+.service_bg_4 {
+  background-image: url(../images/astro-1.jpg);
+}
+
+.service_bg_5 {
+  background-image: url(../images/astro-1.jpg);
+}
+
+.service_bg_6 {
+  background-image: url(../images/astro-1.jpg);
 }
 
 /* line 8, ../../Arafath/CL/CL October/213. Business/HTML/scss/_service.scss */
