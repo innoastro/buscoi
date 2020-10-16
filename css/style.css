@@ -28,7 +28,7 @@ body {
 
 
 .card-bg{
-  background-image: url('../images/card-bg.jpg');
+  background-image: url('./images/card-bg.jpg');
 }
 
 
