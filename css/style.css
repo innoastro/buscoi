@@ -1561,13 +1561,13 @@ h3 {
 
 /* line 100, ../../Arafath/CL/CL October/213. Business/HTML/scss/_about.scss */
 .about_wrap_area.about_wrap_area2 .single_service_wrap {
-  border: 1px solid #D5D5D5;
+  border: 1px solid #ffffff;
 }
 
 /* line 102, ../../Arafath/CL/CL October/213. Business/HTML/scss/_about.scss */
 .about_wrap_area.about_wrap_area2 .single_service_wrap h3 {
   font-size: 20px;
-  color: #2C2C2C;
+  color: #ffffff;
   font-weight: 400;
   margin-top: 38px;
   margin-bottom: 20px;
@@ -1581,7 +1581,7 @@ h3 {
 .about_wrap_area.about_wrap_area2 .single_service_wrap p {
   font-size: 16px;
   line-height: 28px;
-  color: #919191;
+  color: #ffffff;
   margin-bottom: 0;
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -1633,7 +1633,7 @@ h3 {
   height: 100%;
   left: 0;
   top: 0;
-  background: #2C2C2C;
+  background: #c0c0c000;
   opacity: .6;
   content: '';
   z-index: -1;
@@ -1651,7 +1651,7 @@ h3 {
   height: 100%;
   left: 0;
   top: 0;
-  background: #2C2C2C;
+  background: #030303;
   opacity: .6;
   content: '';
   z-index: -1;
@@ -1661,7 +1661,7 @@ h3 {
 /* line 168, ../../Arafath/CL/CL October/213. Business/HTML/scss/_about.scss */
 .about_wrap_area .single_service_wrap {
   margin-bottom: 30px;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgb(0, 0, 0);
   padding: 60px 63px;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -1679,9 +1679,10 @@ h3 {
 /* line 179, ../../Arafath/CL/CL October/213. Business/HTML/scss/_about.scss */
 .about_wrap_area .single_service_wrap h3 {
   font-size: 20px;
-  color: #fff;
+  color: rgb(29, 29, 29);
   font-weight: 400;
   margin-top: 38px;
+ 
   margin-bottom: 20px;
 }
 
@@ -1689,7 +1690,8 @@ h3 {
 .about_wrap_area .single_service_wrap p {
   font-size: 16px;
   line-height: 28px;
-  color: #D5D5D5;
+  color: #000000;
+  
   margin-bottom: 0;
 }
 
