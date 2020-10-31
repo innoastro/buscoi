@@ -1566,6 +1566,8 @@ h3 {
 /* line 90, ../../Arafath/CL/CL October/213. Business/HTML/scss/_about.scss */
 .about_bg_1 {
   background-image: url(../images/Untitled-2.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /* line 93, ../../Arafath/CL/CL October/213. Business/HTML/scss/_about.scss */
