@@ -1681,7 +1681,7 @@ h3 {
 /* line 168, ../../Arafath/CL/CL October/213. Business/HTML/scss/_about.scss */
 .about_wrap_area .single_service_wrap {
   margin-bottom: 30px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(255, 255, 255);
   padding: 60px 63px;
   -webkit-transition: 0.5s;
   -moz-transition: 0.5s;
@@ -1699,7 +1699,7 @@ h3 {
 /* line 179, ../../Arafath/CL/CL October/213. Business/HTML/scss/_about.scss */
 .about_wrap_area .single_service_wrap h3 {
   font-size: 20px;
-  color: rgb(29, 29, 29);
+  color: rgb(255, 255, 255);
   font-weight: 400;
   margin-top: 38px;
  
@@ -1710,7 +1710,7 @@ h3 {
 .about_wrap_area .single_service_wrap p {
   font-size: 16px;
   line-height: 28px;
-  color: #000000;
+  color: #ffffff;
   
   margin-bottom: 0;
 }
