@@ -338,7 +338,7 @@
 
   <!-- about  -->
   <div class="section_title text-center mb-50">
-    <h3> <img src="images/LWWD.png" height="140" alt=""></h3>
+    <h3> <img id="logo-des" src="images/LWWD.png" alt=""></h3>
     <p>
       These cases are perfectly simple and easy to distinguish. In a
       free <br />
@@ -419,14 +419,14 @@
   </div>
 
   <!-- end -->
-  
+ 
   <!-- gallery -->
   <div class="gallery_area">
     <div class="container">
       <div class="row">
         <div class="col-xl-12">
           <div class="section_title text-center mb-50">
-            <h3> <img src="images/NLWWD.png" height="140" alt=""></h3>
+            <h3> <img id="logo-des" src="images/NLWWD.png"  alt=""></h3>
             <p>
               These cases are perfectly simple and easy to distinguish. In a
               free <br />
@@ -436,7 +436,10 @@
         </div>
       </div>
 
-      <div class="row grid">
+
+    
+
+      <div class="row ">
         <div class="col-xl-4 col-lg-6 grid-item cat1 col-md-6">
           <div class="single-gallery mb-20">
             <div class="portfolio-img">
@@ -450,10 +453,10 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-4 col-lg-6 grid-item cat3 cat4 col-md-6">
+        <div class="col-xl-4 col-lg-6 grid-item cat1 col-md-6">
           <div class="single-gallery mb-20">
             <div class="portfolio-img">
-              <img src="img/gallery/2.png" alt="" />
+              <img src="images/about_us_svg.jpg" alt="" />
             </div>
             <div class="gallery_hover">
               <a href="portfolio_details.html" class="hover_inner">
@@ -463,36 +466,10 @@
             </div>
           </div>
         </div>
-        <div class="col-xl-4 col-lg-6 grid-item cat4 col-md-6">
+        <div class="col-xl-4 col-lg-6 grid-item cat1 col-md-6">
           <div class="single-gallery mb-20">
             <div class="portfolio-img">
-              <img src="img/gallery/3.png" alt="" />
-            </div>
-            <div class="gallery_hover">
-              <a href="portfolio_details.html" class="hover_inner">
-                <h3>Product Branding</h3>
-                <span>Branding</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-8 col-lg-6 grid-item cat2 col-md-6">
-          <div class="single-gallery mb-20">
-            <div class="portfolio-img">
-              <img src="img/gallery/4.png" alt="" />
-            </div>
-            <div class="gallery_hover">
-              <a href="portfolio_details.html" class="hover_inner">
-                <h3>Product Branding</h3>
-                <span>Branding</span>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="col-xl-4 col-lg-6 grid-item cat2 col-md-6">
-          <div class="single-gallery mb-20">
-            <div class="portfolio-img">
-              <img src="img/gallery/5.png" alt="" />
+              <img src="images/about_us_svg.jpg" alt="" />
             </div>
             <div class="gallery_hover">
               <a href="portfolio_details.html" class="hover_inner">
@@ -503,13 +480,63 @@
           </div>
         </div>
       </div>
+      <div class="row " id="recent-mobo" >
+        <div class="col-xl-4 col-lg-6 grid-item cat1 col-md-6">
+          <div class="single-gallery mb-20">
+            <div class="portfolio-img">
+              <img src="images/about_us_svg.jpg" alt="" />
+            </div>
+            <div class="gallery_hover">
+              <a href="portfolio_details.html" class="hover_inner">
+                <h3>Product Branding</h3>
+                <span>Branding</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 grid-item cat1 col-md-6">
+          <div class="single-gallery mb-20">
+            <div class="portfolio-img">
+              <img src="images/about_us_svg.jpg" alt="" />
+            </div>
+            <div class="gallery_hover">
+              <a href="portfolio_details.html" class="hover_inner">
+                <h3>Product Branding</h3>
+                <span>Branding</span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-6 grid-item cat1 col-md-6">
+          <div class="single-gallery mb-20">
+            <div class="portfolio-img">
+              <img src="images/about_us_svg.jpg" alt="" />
+            </div>
+            <div class="gallery_hover">
+              <a href="portfolio_details.html" class="hover_inner">
+                <h3>Product Branding</h3>
+                <span>Branding</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <br>
       <div class="row">
         <div class="col-xl-12">
           <div class="More_Works_btn text-center">
-            <a class="boxed-btn3-green-2" href="#">More Works</a>
+            <a class="boxed-btn3-green-2" id="show-btn"  >More Works</a>
           </div>
         </div>
       </div>
+
+  
+
+
+
+
+
     </div>
   </div>
   <!--/ gallery -->
@@ -840,6 +867,20 @@
   <script src="js/mail-script.js"></script>
 
   <script src="js/main.js"></script>
+
+
+  <script>
+    $(document).ready(function () {
+
+      $("#show-btn").click(function(){
+          $('#recent-mobo').show(1000);
+          $('#show-btn').hide();
+        //  alert('hellow');
+        })
+
+
+    });
+  </script>
 </body>
 
 </html>
