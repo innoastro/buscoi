@@ -12,6 +12,12 @@
   -ms-flex-pack: start;
   justify-content: start;
 }
+#logo-des {
+  height: 140px !important;
+}
+#show-btn{
+  display: none ;
+}
 
 /* Normal desktop :1200px. */
 /* Normal desktop :992px. */
@@ -669,9 +675,24 @@ h3 {
   padding-bottom: 15px;
 }
 
+
+
+
+
 @media (max-width: 767px) {
 
   .mob-menu{
+    display: block;
+  }
+  #logo-des{
+    height: 40px !important;
+  }
+
+
+  #recent-mobo{
+    display: none;
+  }
+  #show-btn{
     display: block;
   }
 
@@ -688,6 +709,15 @@ h3 {
     font-size: 36px;
     line-height: 42px;
   }
+  #logo-des{
+    height: 80px !important;
+  }
+  #recent-mobo{
+    display: none;
+  }
+  #show-btn{
+    display: block;
+  }
 }
 
 @media (max-width: 767px) {
@@ -695,6 +725,19 @@ h3 {
   .section_title h3 br {
     display: none;
   }
+
+  #show-btn{
+    display: block;
+  }
+
+
+  #logo-des{
+    height: 80px !important;
+  }
+  #recent-mobo{
+    display: none;
+  }
+  
 }
 
 /* line 25, ../../Arafath/CL/CL October/213. Business/HTML/scss/_section_title.scss */
