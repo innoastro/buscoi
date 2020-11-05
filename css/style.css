@@ -54,6 +54,45 @@ body {
 }
 
 
+/* *sidenav */
+
+.mySide_nav{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  
+}
+
+.mySide_nav a{
+  padding: 8px 8px 8px 34px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  font-size: 28px;
+  transition: 0.3s;
+
+}
+
+.mySide_nav a:hover{
+  color: #28AE61;
+}
+.mySide_nav .close-btn{
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font-size: 38px;
+  margin-left: 50px;
+}
+
+
+/* end */
 
 
 /* *mob menu */
