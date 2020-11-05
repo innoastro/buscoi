@@ -34,10 +34,32 @@
 
 
 <body>
+
+<!-- *side-menu for mobile -->
+
+<div id="mySidenav" class="mySide_nav">
+<a href="javascript:void(0)" class="close-btn" onclick="closeSideNav()" >
+  &times;
+</a>
+  <a href="#">About</a>
+  <a href="#">Services</a>
+  <a href="#">projects</a>
+  <a href="#">contact</a>
+
+
+</div>
+
+<!-- end -->
+
+
+
+
+<!--* mobile float-bar -->
+
   <div class="mob-menu">
     <div class="row">
       <div class="col-4">
-        <i class="fa fa-home fa-2x mob-icon"></i>
+        <i id="home-btn" onclick="openSideNav()" class="fa fa-bars fa-2x mob-icon"></i>
         Home
       </div>
       <div class="col-4">
@@ -51,6 +73,7 @@
     </div>
   </div>
 
+<!-- end -->
   <!--[if lte IE 9]>
       <p class="browserupgrade">
         You are using an <strong>outdated</strong> browser. Please
@@ -146,9 +169,9 @@
                   </div>
                 </div>
               </div>
-              <div class="col-12">
-                <div class="mobile_menu d-block d-lg-none"></div>
-              </div>
+              <!-- <div class="col-12">
+                <div class="mobile_menu d-block d-lg-none" ></div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -882,6 +905,27 @@
 
     });
   </script>
+
+
+<!-- *js for mySidenav(vanila) -->
+<script>  
+  function openSideNav() {
+    console.log("worked");
+     document.getElementById("mySidenav").style.width="280px";
+ 
+  }
+ 
+  function closeSideNav(){
+    console.log("close");
+    document.getElementById("mySidenav").style.width="0px";
+  }
+ </script>
+ 
+ <!-- end -->
+
+
+
+
 </body>
 
 </html>
