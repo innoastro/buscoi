@@ -15,6 +15,7 @@
 }
 #logo-des {
   height: 140px !important;
+  
 }
 #show-btn{
   display: none ;
@@ -107,6 +108,9 @@ body {
     background-color: #28AE60;
     border-radius: 10px;
     color: #fff;
+    width: 95%;
+    /* margin-right: 100px; */
+    
     font-weight: 600;
     /* padding-bottom:px; */
     text-align: center;
@@ -719,13 +723,27 @@ h3 {
   padding-bottom: 15px;
 }
 
-
+/* .logo{
+  width: auto;
+  text-align: left;
+} */
 
 
 
 @media (max-width: 767px) {
 
+  .logo{
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  #hide-menu{
+    display: none;
+  }
+
   .mob-menu{
+
     display: block;
   }
   #logo-des{
@@ -942,7 +960,6 @@ h3 {
   
   height: 90px;
 }
-
 
 /* line 1, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
 .header-area {
