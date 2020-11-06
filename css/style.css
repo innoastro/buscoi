@@ -751,6 +751,9 @@ h3 {
     text-align: center;
   }
   
+  .logo img{
+    height: 110px !important;
+  }
   
   #hide-menu{
     display: none;
