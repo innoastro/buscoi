@@ -21,6 +21,14 @@
   display: none ;
 }
 
+#mob-para{
+  padding: 160px;
+}
+
+
+
+
+
 html{
   font-family: 'Poppins' !important;
 }
@@ -732,6 +740,12 @@ h3 {
 
 @media (max-width: 767px) {
 
+  #mob-para{
+    padding: 60px;
+   
+  }
+
+  
   .logo{
     width: 100%;
     text-align: center;
