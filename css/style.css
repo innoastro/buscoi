@@ -26,7 +26,9 @@
 }
 
 
-
+#mob-para-two{
+  padding: 160px;
+}
 
 
 html{
@@ -746,6 +748,12 @@ h3 {
    
   }
 
+  #mob-para-two{
+    padding: 40px;
+    font-size: 14px !important;
+    text-align: justify;
+   
+  }
   
   .logo{
     width: 100%;
