@@ -65,6 +65,23 @@ body {
 }
 
 
+/* *contact form css */
+.contact-form{
+  padding: 40px;
+  width: 750px;
+  border: 2px solid rgb(255, 255, 255);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: auto;
+  border-radius: 5px;
+}
+
+.form-control:focus{
+  box-shadow: none !important;
+  outline-color: #000000 !important;
+  border-color: #000000 !important;
+}
+/* end */
+
 /* *sidenav */
 
 .mySide_nav{
@@ -741,6 +758,14 @@ h3 {
 
 
 @media (max-width: 767px) {
+
+  .contact-form{
+    width: auto;
+    padding: 5px;
+    border: 2px solid #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
 
   #mob-para{
     padding: 60px;
