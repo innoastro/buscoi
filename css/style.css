@@ -33,6 +33,7 @@
 
 html{
   font-family: 'Poppins' !important;
+  scroll-behavior: smooth;
 }
 
 /* Normal desktop :1200px. */
