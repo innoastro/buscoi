@@ -137,6 +137,7 @@ body {
     border-radius: 10px;
     color: #fff;
     width: 95%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.438), 0 6px 20px 0 rgba(0, 0, 0, 0.404);
     /* margin-right: 100px; */
     
     font-weight: 600;
