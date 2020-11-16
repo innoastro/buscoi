@@ -42,10 +42,9 @@
   &times;
 </a>
 <img src="images/logo.png" height="90" alt="">
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">projects</a>
-  <a href="#">contact</a>
+<a class="active" href="#Who_We_Are">Who We Are?</a>
+<a class="active" href="#What_We_Do">What We Do?</a>
+<a class="active" href="#Drop_A_Query">Drop A Query!</a>
 
   <br>
   <div>
@@ -75,17 +74,19 @@
       <div class="col-4">
         <i id="home-btn" onclick="openSideNav()" class="fa fa-bars fa-2x mob-icon"></i>
         <br>
-        Home
+        Menu
       </div>
       <div class="col-4">
-        <i class="fa fa-home fa-2x mob-icon"></i>
-        <br>
-        Home
+        <a href="#What_We_Do"> <i class="fa fa-briefcase fa-2x mob-icon"></i>
+          <br>
+           Projects</a>
+       
       </div>
-      <div class="col-4">
-        <i class="fa fa-home fa-2x mob-icon"></i>
+      <div class="col-4"><a href="#Drop_A_Query" style="text-decoration: none; color: #fff;">
+        <i class="fa fa-comment fa-2x mob-icon"></i>
         <br>
-        Home
+       Say Hi
+      </a>
       </div>
     </div>
   </div>
@@ -166,7 +167,7 @@
                     </a> -->
                   </div>
                   <div class="book_btn d-none d-lg-block" style="padding-left: 60px !important; margin-right: -100px;">
-                    <a class="popup-with-form" href="#Drop_A_Query">Get a Quote</a>
+                    <a class="popup-with-form" href="#pop-form">Get a Quote</a>
                   </div>
                 </div>
               </div>
@@ -726,8 +727,9 @@
   </div>
 
   <!-- project  -->
+  <div id="pop-form">
   <div id="Drop_A_Query" class="project_area">
-    <div class="container">
+    <div class="container" >
       <div class="row">
         <div class="col-xl-12">
           <div class="project_info text-center">
@@ -776,6 +778,7 @@
       </div>
     </div>
   </div>
+</div>
   <!--/ project  -->
 
   <!-- footer start -->
