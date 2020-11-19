@@ -1874,10 +1874,14 @@ h3 {
 }
 
 /* line 193, ../../Arafath/CL/CL October/213. Business/HTML/scss/_about.scss */
+/* *turning off hover effect  */
+
 .about_wrap_area .single_service_wrap:hover {
-  background: #28AE60;
-  border-color: #28AE60;
+  /* background: #28AE60;
+  border-color: #28AE60; */
 }
+
+/* end */
 
 /* line 203, ../../Arafath/CL/CL October/213. Business/HTML/scss/_about.scss */
 .project_area {
@@ -2078,7 +2082,7 @@ h3 {
 
 /* line 1, ../../Arafath/CL/CL October/213. Business/HTML/scss/_gallery.scss */
 .gallery_area {
-  padding-top: 150px;
+  padding-top: 40px;
   padding-bottom: 150px;
 }
 
