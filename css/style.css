@@ -3629,7 +3629,7 @@ h3 {
 
 /* line 90, ../../Arafath/CL/CL October/213. Business/HTML/scss/_tesmonial.scss */
 .testmonial_area .testmonial_active2 .owl-dots .owl-dot:nth-child(even) {
-  background-image: url(../img/testmonial/1.png);
+  background-image: url(../images/1.png);
   background-size: cover;
   background-position: center center;
   -webkit-border-radius: 50%;
@@ -3639,7 +3639,7 @@ h3 {
 
 /* line 96, ../../Arafath/CL/CL October/213. Business/HTML/scss/_tesmonial.scss */
 .testmonial_area .testmonial_active2 .owl-dots .owl-dot:nth-child(odd) {
-  background-image: url(../img/testmonial/1.png);
+  background-image: url(../images/1.png);
   background-size: cover;
   background-position: center center;
   -webkit-border-radius: 50%;
