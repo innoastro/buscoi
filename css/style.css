@@ -2,6 +2,12 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:200,200i,300,300i,400,400i,500,500i,600,600i,700&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;900&display=swap');
 /* line 1, ../../Arafath/CL/CL October/213. Business/HTML/scss/_extend.scss */
+
+.fontBig{
+  font-size: 84px !important;
+}
+
+
 .flex-center-start {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -134,7 +140,8 @@ body {
     bottom: 0;
     margin: 10px;
     background-color: #28AE60;
-    border-radius: 10px;
+    border-radius: 50px;
+    border: 4px solid #fff;
     color: #fff;
     width: 95%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.438), 0 6px 20px 0 rgba(0, 0, 0, 0.404);
@@ -760,7 +767,9 @@ h3 {
 
 
 @media (max-width: 767px) {
-
+.fontBig{
+  font-size: 34px !important;
+}
   .contact-form{
     width: auto;
     padding: 5px;
