@@ -31,7 +31,7 @@
 }
 
 
-html{
+body{
   font-family: 'Poppins' !important;
   scroll-behavior: smooth;
 }
@@ -908,8 +908,12 @@ h3 {
   right: 0;
   margin: auto;
   top: 11px;
+ 
+  
 }
-
+/* .slicknav_nav{
+  display: none !important;
+} */
 /* line 28, ../../Arafath/CL/CL October/213. Business/HTML/scss/_slick-nav.scss */
 .slicknav_menu .slicknav_nav a:hover {
   background: transparent;
@@ -958,6 +962,11 @@ h3 {
   top: -11px;
   right: -5px;
 }
+
+/* .slicknav_menu::before{
+  content: " adad";
+  border: 2px solid #f44a40;
+} */
 
 @media (max-width: 767px) {
   /* line 12, ../../Arafath/CL/CL October/213. Business/HTML/scss/_slick-nav.scss */
@@ -1378,7 +1387,7 @@ h3 {
 
 /* line 270, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
 .header-area .main-header-area.sticky .header_bottom_border {
-  border-bottom: none;
+  border-bottom: none !important;
 }
 
 /* line 273, ../../Arafath/CL/CL October/213. Business/HTML/scss/_header.scss */
